@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+*{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #313945;
+}
+
+header {
+  background-color: #313945;
+  text-align: center;
+  min-height: 60px;
+  line-height: 60px;
+}
+
+header h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+section {
+  margin: 10px 10px;
+  background-color: #333333;
+}
+
+section h4 {
+  border-top: darkorange 1px solid;
+  color: #d2d2d2;
+  width: auto;
+  text-align:left;
+}
+
+
+/* Estilos de Calculadora */
+
+#screen{
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+  padding: 5px 10px;
+  font-size: x-large;
+  background-color: #F4F4F4;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+}
+#buttons-zone{
+  width: 100%;
+  margin: 0 auto;
+}
+.buttons{
+  display: inline-block;
+  padding: 10px 0 10px 0;
+  margin-top: 5px;
+  width: 24%;
+  cursor: pointer;
+  font-weight: bold;
+}
+.operators{
+  background-color: slategrey;
+}
+.equal{
+  float: right;
+  margin-right: 1px;
+}
+.clear{
+  background-color: cornflowerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  color: #545e6f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #f1f2f5;
+}
+
+.header {
+  background: #451771;
+  padding: 20px 25px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-ultimate {
+  height: 30px;
+  width: 30px;
+  background: url('https://drive.google.com/uc?export=view&id=1gjKk20q5MgptDtuXqc0gAPFcSmkcHJZA')
+    no-repeat center center;
+  background-size: contain;
+}
+
+.logo-name {
+  margin: 0 0 0 14px;
+  line-height: 30px;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.header-logo img {
+  height: 100%;
+}
+
+#app {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#app h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+#app h1:before {
+  content: '';
+  background: url('https://drive.google.com/uc?export=view&id=1Dbmt6tlQ-fvMf6VCAGEjr5jZewymhdUE')
+    no-repeat center center;
+  background-size: contain;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  margin-right: 14px;
+  position: relative;
+  top: 6px;
+}
+
+#start, #stop{
+  color: white;
+}
+
+#start{
+  background-color: green;
+}
+
+#stop{
+  background-color: red;
+}
+*/
